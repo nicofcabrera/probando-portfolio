@@ -1,4 +1,360 @@
 * {
-    /* background-color: #f5e6ca; */
-    background-color: #d5dbb3;
+    box-sizing: border-box;
 }
+
+body { 
+    /* fuente y colores*/
+    background-color: #FAF1E6;
+    font-family: 'Inconsolata', monospace;
+
+  
+   
+    
+}
+
+a {
+    text-decoration: none;
+    color: #FDFAF6;
+}
+
+/* NAV */
+
+.nav{
+    /* Fuente y color */
+    font-family: 'Staatliches', cursive;
+    color: #FDFAF6;
+    width: 100%;
+    /* background-color: #333; */
+    
+    /* color: #DEEEEA; */
+}
+
+.lista{
+    /* display: flex; */
+    list-style: none;   
+    width: 100%;
+    text-align: center;
+    padding-left: 0;   
+    position: fixed;
+    
+    
+        
+}
+
+.sob, .sk, .pro, .con {
+    /* border: 2px solid transparent; */
+    box-shadow: 5px 5px 5px 5px gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 25%;
+    padding: 0.5em;
+    
+}
+
+.sob, .sob1{
+    background-color:lightcoral;
+    margin-right: 10px;
+}
+
+.sk, .sk1{
+    background-color: lightgreen;
+    margin-right: 10px;
+}
+
+.pro, .pro1 {
+    background-color: lightseagreen;
+    margin-right: 10px;
+}
+
+.con, .con1 {
+    background-color: rgb(93, 77, 102);
+    /* margin-right: 10px; */
+
+}
+
+.con {
+    /* margin-right: 10px; */
+}
+
+
+
+/* H1, H2 principal */
+.h1title{
+    text-align: center;
+}
+
+.h2title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 40px;
+    /* border: 3px solid rgb(95, 187, 95); */
+    /* border: 3px solid rgb(158, 92, 92); */
+    box-shadow: 10px 10px 10px 5px gray;
+    overflow: hidden;
+      /* luego sacar border */    
+}
+
+/* ABOUT */
+.h2ab {
+    font-size: 1.4rem;
+}
+
+.textab {
+    font-size: 1rem;
+}
+
+.about {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/* -----------------------SKILLS----------------- */
+.h2sk{
+    text-align: center;
+    
+
+    text-decoration: underline;
+    
+    text-transform: uppercase;
+}
+
+.skills {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;  
+}
+
+.ulsk{
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+   
+}
+
+
+
+.html {
+    color: orangered;
+    /* margin-right: 40px; */
+}
+
+.css {
+    color: rgb(55, 55, 241);
+}
+
+.bootstrap {
+    color: purple;
+}
+
+.js {
+    color: rgb(240, 214, 65);
+}
+
+
+
+
+
+/* -----------------Proyectos ----------------------*/
+.h2pro {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.proyectos {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+
+.box {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 10px gray;
+    width: 300px;
+    height: 300px;   
+    padding: 1em;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img1{
+    width: 260px;
+    height: 100px;
+         
+}
+
+.contbox12, .contbox34 {
+    /* display: flex; */
+    /* margin-top: 60px; */
+    
+}
+
+
+/* ---------------Contacto---------------- */
+.h2con{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.contacto {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+
+.form {
+    
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+.ulform{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liform {
+    margin-bottom: 1em;
+    text-align: left;
+
+}
+
+.subm{
+    text-align: center;
+}
+
+.msg {
+    text-align: center;
+    
+}
+
+
+/* ------------FOOTER------------ */
+.footer {
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(167, 81, 248);
+    
+}
+
+.ulfoot{
+    list-style: none;
+    padding-top: 0.5em;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100px;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.lifoot{
+    margin-right: 1em;
+    
+}
+
+.textfoot{
+    text-align: center;
+    
+  
+   
+}
+
+/* ------------medias-------------- */
+@media (min-width: 1100px) {
+        .boxes{
+            display: flex;
+            
+        }
+
+        .skills{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            /* background-color: #333; */
+        }
+
+        .log{
+            margin-right: 160px;
+        }
+
+        .ulsk{
+            text-align: center;
+        }   
+
+        /* Proyectos */
+        .contbox12, .contbox34 {
+            display: flex;
+            margin-top: 60px;
+            
+        }
+
+
+        
+    
+
+}
+
+@media (max-width:600px) {
+
+    /* Skills */
+    .log{
+        margin-right: 10px;
+       /* margin-left: auto;
+       margin-right: auto; */
+    }
+
+    .skills {
+        
+        /* background-color: #333; */
+        /* overflow: hidden; */
+        width: 80%;
+    }
+
+    .ulsk{
+        
+        padding-left: 20px;
+        
+    }
+
+    /* Proyectos */
+
+    .proyectos {
+        /* width: 80%; */
+        /* display: none; */
+       
+        
+    }
+
+    
+
+
+}
+

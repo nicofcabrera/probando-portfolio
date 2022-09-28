@@ -1,24 +1,195 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ======================= -->
-    <title>Portfolio Cabrera Nicolas</title>
-    <!-- ====================== -->
-    <!-- Hoja de estilos -->
-    <link rel="stylesheet" href="style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/imagenes/user.png" type="image/x-icon" >
+
+    <!--    BOOSTRAP  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
-    <!-- Fuentes  -->
+    <!-- ICONOS FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/33d04f8f72.js" crossorigin="anonymous"></script>
 
-    <!-- Iconos -->
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="style.css">
 
-   
-    <!--Bootsrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+
+    <!-- FONTS GOOGLE NAV-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <!-- FONTS GOOGLE BODY -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <!-- TITULO -->
+    <title>Portfolio Cabrera Nicolas</title>
+
+
 </head>
 <body>
+  <!-- Navegacion -->
+  <nav >
+    <div class="nav">
+      <ul class="lista">
+        <li class="sob botonnav">
+          <i class="bi bi-person-check-fill sob1"></i><a href="#about1">Sobre mi</a>
+        </li>
+        <li class="sk botonnav">
+          <i class="bi bi-sliders sk1"></i><a href="#skills1">Skills</a>
+        </li>
+        <li class="pro botonnav">
+          <i class="bi bi-paperclip pro1"></i><a href="#proyecto1">Proyectos</a>
+        </li>
+        <li class="con botonnav">
+          <i class="bi bi-envelope-fill con1"></i><a href="#contacto1">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header  -->
+ <header>
+    <div class="img">
+      <img src="/iconos/programmer.svg" alt="programador">
+    </div>
+    <div class="h1title">
+      <h1>Cabrera Nicolas Francisco</h1>
+    </div>
+    <div class="h2title">
+      <h2>Fullstack Web Developer Trainee</h2>
+    </div>
+ </header>
+
+
+    <!-- ABOUT -->
+ <section>
+    <article class="about">
+      <h2 id="about1" class="h2ab">Acerca de mi</h2>
+      <p class="textab">Hola mundo! Soy un Desarrollador Web con ganas de crecer en busca de su primer trabajo IT. Soy un autodidacta de querer siempre estar aprendiendo nuevas herramientas y mejorarlas con el tiempo. Deseo tener la posibilidad de trabajar en equipo con proyectos reales, cuento con buena comunicación, escucha actva y asertividad.</p>    
+    </article>
+
+    <!-- SKILLSS -->
+    <article class="skills">
+      <h2 id="skills1" class="h2sk">Skills</h2>
+      <ul class="ulsk">
+        <!-- html, css, bootsrap, js -->
+        <div class="boxes">
+          <li class="html log"><i class="fab fa-html5" style="font-size: 10rem"></i></li> 
+          <li class="css log"><i class="fab fa-css3-alt" style="font-size: 10rem"></i></li>   
+        </div>
+        <div class="boxes">
+          <li class="bootstrap log"><i class="fab fa-bootstrap" style="font-size: 10rem"></i></li>  
+          <li class="js "><i class="fab fa-js" style="font-size: 10rem"></i></li>
+        </div>    
+      </ul>    
+    </article>
+
+    <!-- PROYECTOS -->
+    <article class="proyectos">
+      <h2 id="proyecto1" class="h2pro">Proyectos</h2>
+      <div class="contbox12">
+
+          <div class="box box1">
+              <img src="/imagenes/adopcion.png" alt="adoptcion" class="img1">
+              <p>Se realizo una web con tematica de adopción de animales, trabajando con cajas, utilizando flexbox y practicando el responsive.</p>
+              <a class="btn btn-primary " href="#" role="button">Ir al sitio</a>
+          </div>
+      
+          <div class="box box2">
+              <img src="/imagenes/bar.png" alt="bar" class="img1">
+              <p>Se trabajo web con tematica de bar, practicando fuentes, imagenes, cajas, etc.</p>
+              <a class="btn btn-primary " href="#" role="button">Ir al sitio</a>
+          </div>
+
+      </div>
+
+      <div class="contbox34">
+  
+          <div class="box box3">
+
+              <img src="/imagenes/formulario.png" alt="form" class="img1">
+              <p>Se realizo actividad de un primer formulario bajo una tematica de encuentro geek de programadores.</p>
+              <a class="btn btn-primary " href="#" role="button">Ir al sitio</a>
+      
+          </div>
+  
+          <div class="box box4">
+              <img src="/imagenes/hamburguesa.png" alt="hamburguesa" class="img1">
+              <p>Se trabajo mucho con divs, practicando varios estilos con css.</p>
+              <a class="btn btn-primary " href="#" role="button">Ir al sitio</a>
+          </div>
+      </div>
+
+        
+    </article>
+
+    <!-- CONTACTO -->
+
+    <article class="contacto">
+        <h2 id="contacto1" class="h2con">Contacto</h2>
+        <!-- Agregar form + formspark -->
+        <form class="form" action="https://submit-form.com/PxRXUaM1">
+            <ul class="ulform">
+                <li class="liform">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="Nombre" placeholder="Coloca un nombre"> <br>
+                </li>
+
+                <li class="liform msg">
+                    <label for="message">Mensaje</label> <br>
+                    <textarea name="Mensaje" id="message" cols="30" rows="10" placeholder="Escribe un mensaje..."></textarea>
+                </li>
+
+                <li class="liform subm">
+                    <input type="submit" value="Enviar" >
+                </li>
+
+
+            </ul>
+        </form>
+
+
+    </article>
+ </section>
+ 
+
+ <footer class="footer">
+    <ul class="ulfoot">
+        
+
+            <li class="lifoot">
+               <a href="https://www.linkedin.com/in/nicolas-cabrera-00a265165/">
+                   <i class="bi bi-linkedin"></i>
+                </a>             
+            </li>
+
+            <li class="lifoot">
+                <a href="https://github.com/nicofcabrera">
+                    <i class="bi bi-github"></i>
+                </a>
+            </li>
+
+            <li class="lifoot">
+                <a href="https://t.me/nicofcabre">
+                    <i class="bi bi-telegram"></i>
+                </a>
+            </li>
+
+
+            
+        
+    </ul>
+    <p class="textfoot">Realizado en Programá Desde Tu Casa - 2021.</p>
+ </footer>
 
 
 
@@ -29,8 +200,9 @@
 
 
 
-
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- JavaScript Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
+
