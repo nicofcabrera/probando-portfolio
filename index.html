@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +12,9 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- BOOTSTRAP ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
-    <!-- ICONOS FONTAWESOME-->
-    <script src="https://kit.fontawesome.com/33d04f8f72.js" crossorigin="anonymous"></script>
-
+  
     <!-- HOJA DE ESTILOS -->
     <link rel="stylesheet" href="style.css">
 
@@ -31,70 +29,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
     <!-- TITULO -->
-    <title>Portfolio Cabrera Nicolas</title>
+    <title>ACTUALIZANDO Portfolio Cabrera Nicolas</title>
 
 
 </head>
 <body>
   <!-- Navegacion -->
-  <nav >
-    <div class="nav">
-      <ul class="lista">
-        <li class="sob botonnav">
-          <i class="bi bi-person-check-fill sob1"></i><a href="#about1">Sobre mi</a>
-        </li>
-        <li class="sk botonnav">
-          <i class="bi bi-sliders sk1"></i><a href="#skills1">Skills</a>
-        </li>
-        <li class="pro botonnav">
-          <i class="bi bi-paperclip pro1"></i><a href="#proyecto1">Proyectos</a>
-        </li>
-        <li class="con botonnav">
-          <i class="bi bi-envelope-fill con1"></i><a href="#contacto1">Contacto</a>
-        </li>
-      </ul>
-    </div>
+  <nav class="nav d-flex text-center">
+        <article class="sob ">
+          <a href="#about1"><i class="bi bi-person-check-fill"></i> Sobre mi</a>
+        </article>
+        <article class="sk">
+          <a href="#skills1"><i class="bi bi-sliders"></i> Skills</a>
+        </article>
+        <article class="pro">
+          <a href="#proyecto1"><i class="bi bi-paperclip"></i>Proyectos</a>
+        </article>
+        <article class="con">
+          <a href="#contacto1"><i class="bi bi-envelope-fill"></i> Contacto</a>
+        </article>
   </nav>
 
   <!-- Header  -->
  <header>
-    <div class="img">
+    <figure class="header-img">
       <img src="/iconos/programmer.svg" alt="programador">
-    </div>
-    <div class="h1title">
-      <h1>Cabrera Nicolas Francisco</h1>
-    </div>
-    <div class="h2title">
-      <h2>Fullstack Web Developer Trainee</h2>
-    </div>
+    </figure>
+      <h1 class="text-center">Cabrera Nicolas Francisco</h1>
+      <h2 class="text-center">Frontend Web Developer</h2>
  </header>
 
-
-    <!-- ABOUT -->
- <section>
-    <article class="about">
-      <h2 id="about1" class="h2ab">Acerca de mi</h2>
-      <p class="textab">Hola mundo! Soy un Desarrollador Web con ganas de crecer en busca de su primer trabajo IT. Soy un autodidacta de querer siempre estar aprendiendo nuevas herramientas y mejorarlas con el tiempo. Deseo tener la posibilidad de trabajar en equipo con proyectos reales, cuento con buena comunicación, escucha actva y asertividad.</p>    
-    </article>
+  <!-- ABOUT -->
+ <main>
+    <section class="about">
+      <article>
+        <h2>Acerca de mi</h2>
+        <p>Hola mundo! Soy un Desarrollador Web con ganas de crecer en busca de su primer trabajo IT. Soy un autodidacta de querer siempre estar aprendiendo nuevas herramientas y mejorarlas con el tiempo. Deseo tener la posibilidad de trabajar en equipo con proyectos reales, cuento con buena comunicación, escucha actva y asertividad.</p>    
+      </article>
+    </section>
 
     <!-- SKILLSS -->
-    <article class="skills">
-      <h2 id="skills1" class="h2sk">Skills</h2>
-      <ul class="ulsk">
-        <!-- html, css, bootsrap, js -->
-        <div class="boxes">
-          <li class="html log"><i class="fab fa-html5" style="font-size: 10rem"></i></li> 
-          <li class="css log"><i class="fab fa-css3-alt" style="font-size: 10rem"></i></li>   
-        </div>
-        <div class="boxes">
-          <li class="bootstrap log"><i class="fab fa-bootstrap" style="font-size: 10rem"></i></li>  
-          <li class="js "><i class="fab fa-js" style="font-size: 10rem"></i></li>
-        </div>    
-      </ul>    
-    </article>
-
+    
+      <section class="skills">
+        <h2 id="skills1" class="text-center text-uppercase text-decoration-underline mb-4">Skills</h2>
+        <article class="container">
+          <article class="row">
+            <figure class="col-6 col-md-3 text-center">
+              <img src="/imagenes/003-html-5.png" alt="html logo">
+            </figure>
+            <figure class="col-6 col-md-3 text-center">
+              <img src="/imagenes/004-css-3.png" alt="css logo">
+            </figure>
+            <figure class="col-6 col-md-3 text-center">
+              <img src="/imagenes/001-bootstrap.png" alt="bootstrap logo">
+            </figure>
+            <figure class="col-6 col-md-3 text-center">
+              <img src="/imagenes/002-js.png" alt="javascript logo">
+            </figure>
+          </article>
+        </article>    
+      </section> 
+    
     <!-- PROYECTOS -->
-    <article class="proyectos">
+    <!-- <article class="proyectos">
       <h2 id="proyecto1" class="h2pro">Proyectos</h2>
       <div class="contbox12">
 
@@ -130,13 +127,13 @@
       </div>
 
         
-    </article>
+    </article> -->
 
     <!-- CONTACTO -->
 
-    <article class="contacto">
+    <!-- <article class="contacto">
         <h2 id="contacto1" class="h2con">Contacto</h2>
-        <!-- Agregar form + formspark -->
+      
         <form class="form" action="https://submit-form.com/PxRXUaM1">
             <ul class="ulform">
                 <li class="liform">
@@ -158,46 +155,24 @@
         </form>
 
 
-    </article>
- </section>
+    </article> -->
+  </main>
  
 
- <footer class="footer">
-    <ul class="ulfoot">
-        
-
-            <li class="lifoot">
-               <a href="https://www.linkedin.com/in/nicolas-cabrera-00a265165/">
-                   <i class="bi bi-linkedin"></i>
-                </a>             
-            </li>
-
-            <li class="lifoot">
-                <a href="https://github.com/nicofcabrera">
-                    <i class="bi bi-github"></i>
-                </a>
-            </li>
-
-            <li class="lifoot">
-                <a href="https://t.me/nicofcabre">
-                    <i class="bi bi-telegram"></i>
-                </a>
-            </li>
-
-
-            
-        
-    </ul>
-    <p class="textfoot">Realizado en Programá Desde Tu Casa - 2021.</p>
+ <footer class="py-3">
+    <section class="text-center">
+      <a href="https://www.linkedin.com/in/nicolas-cabrera-00a265165/" target="_blank">
+        <i class="bi bi-linkedin"></i>
+      </a>                
+      <a href="https://github.com/nicofcabrera" target="_blank">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://t.me/nicofcabre" target="_blank">
+        <i class="bi bi-telegram"></i>
+      </a>   
+    </section>
+    <p class="text-center fw-bold fs-italic m-0">&copy Cabrera Nicolas Francisco</p>
  </footer>
-
-
-
-
-
-
-
-
 
 
     <!-- JavaScript Bootstrap-->
