@@ -9,6 +9,7 @@ html {
 body { 
     background-color: #FAF1E6;
     font-family: 'Inconsolata', monospace;  
+    border: thin solid red;
 }
 
 a {
@@ -17,6 +18,10 @@ a {
     text-shadow: 0 0 .1em black;
 }
 
+a:hover, a:focus{
+  color: black;
+  transition: all 1s ease;
+}
 
 /* ######## NAVEGACION ###### */
 
@@ -82,86 +87,22 @@ a {
   margin: 50px auto;  
 }
 
+
 /* -----------------Proyectos ----------------------*/
-.h2pro {
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-.proyectos {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
 
 
-
-.box {
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px 10px gray;
-    width: 300px;
-    height: 300px;   
-    padding: 1em;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.img1{
-    width: 260px;
-    height: 100px;
-         
-}
 
 
 
 /* ---------------Contacto---------------- */
-.h2con{
-    text-decoration: underline;
-    text-transform: uppercase;
+
+
+.form { 
+  /* width: 300px; */
+  margin-bottom: 20px;
 }
 
-.contacto {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
-    text-align: center;
-    
-}
 
-.form {
-    
-    margin: 0 auto;
-    width: 300px;
-    padding: 1em;
-    margin-bottom: 20px;
-}
-
-.ulform{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.liform {
-    margin-bottom: 1em;
-    text-align: left;
-
-}
-
-.subm{
-    text-align: center;
-}
-
-.msg {
-    text-align: center;
-    
-}
 
 
 /* ------------FOOTER------------ */
