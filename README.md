@@ -8,4 +8,4 @@ No busco hacer un remaster de la web, solo hare las correciones antes mencionada
 
 Las tecnologías que pondré en practica son : _**HTML, CSS y Bootstrap**_
 
-Link del deploy : [Portfolio](#)
+Link del deploy : [Portfolio](https://gregarious-brioche-723331.netlify.app/)
